@@ -1,43 +1,26 @@
-Desafio de fazer a automação do website http://automationpractice.com/index.php
+<h1 align="center">Automação Cypress com Cucumber</h1>
+Desafio de fazer a automação do website http://www.automationpractice.pl/index.php
 utilizando cypress + cucumber.
 
-Os testes são divididos em: WEB
-1. Login válido
-2. Realizar busca no site
-3. Adicionar produto no carrinho
-4. Confirmar produto adicionado na tela de pagamento
+### O testes é dividido em 4 etapas
+- [x] Login válido
+- [x] Realizar busca no site
+- [x] Adicionar produto no carrinho
+- [x] Confirmar produto adicionado na tela de pagamento
 
-Necessário a escrita dos teste no formato BDD (feature, steps, page)
-
-Status: incompleto devido a erro de undefined steps.
-
-Configurações feitas:
+### Configurações feitas:
 
 1. npm init
 2. npm install cypress@12.1.0 --save-dev
 3. npm install --save-dev cypress-cucumber-preprocessor
 
-Arquivo 'cypress.config.js':
-const cucumber = require('cypress-cucumber-preprocessor').default  <-- (adicionado)
-const { defineConfig } = require("cypress");
+### Linguagens
+- JavaScript
+- [Cypress](https://www.cypress.io/) na versão 12.1.0
+- [Node.js](https://nodejs.org/en/)
 
-module.exports = defineConfig({
-  e2e: {
-    setupNodeEvents(on, config) {
-      on('file:preprocessor', cucumber())                          <-- (adicionado)
-    },
-    specPattern:"cypress/e2e/*.feature",                           <-- (adicionado)
-  },
-});
-
-Arquivo 'package.json':
-
-,                                                                  <-- (adicionado)
-  "cypress-cucumber-preprocessor":{                                <-- (adicionado)
-    "nonGlobalStepDefinitions": true,                              <-- (adicionado)
-    "step_definitions": "cypress/e2e/steps"                        <-- (adicionado)
-  }                                                                <-- (adicionado)
-}                                                                  <-- última linha
-
-Após isso apenas criei o 'login.feature' e a pasta 'steps' dentro de 'e2e' e o 
-arquivo 'login.js' dentro de 'steps'
+<div style="display: inline_block"><br>
+  <img align="center" alt="Diego-Java" height="100" width="100" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cucumber/cucumber-plain-wordmark.svg"> 
+  <img align="center" alt="Diego-Java" height="100" width="100" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"> 
+ <img align="center" alt="Diego-Java" height="100" width="100" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg"> 
+</div>

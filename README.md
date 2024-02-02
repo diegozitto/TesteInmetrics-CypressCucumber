@@ -1,5 +1,5 @@
 <h1 align="center">Automação Cypress com Cucumber</h1>
-Desafio de fazer a automação do website [http://automationpractice.pl/index.php] (http://www.automationpractice.pl/index.php)
+Desafio de fazer a automação do website http://www.automationpractice.pl/index.php
 utilizando cypress + cucumber.
 
 ### O testes é dividido em 4 etapas

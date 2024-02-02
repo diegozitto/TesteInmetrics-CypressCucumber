@@ -25,5 +25,6 @@ utilizando cypress + cucumber.
  <img align="center" alt="Diego-Java" height="100" width="100" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg"> 
 </div>
 
+
 - [LinkedIn](Diego_Zito): [https://www.linkedin.com/in/diego-zito/](https://www.linkedin.com/in/diego-zito/)
 - [GitHub](diegozitto): [https://github.com/diegozitto](https://github.com/diegozitto)
